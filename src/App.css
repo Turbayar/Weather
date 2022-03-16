@@ -1,3 +1,64 @@
-button{
-  
+body {
+  margin: 0;
+  background-image: linear-gradient(120deg, #32914e 20%, #264888 80%);
+  color: white;
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.list {
+  display: flex;
+  margin: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.search {
+  margin-top: 200px;
+}
+
+button {
+  margin: 5px;
+  color: #349fa3;
+  background: #f7fffe;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+input {
+  width: 400px;
+  height: 20px;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.search button {
+  color: #0b2430;
+  background: #f7fffe;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  border: 1px solid black;
+  height: 45px;
+  border-radius: 15%;
+}
+
+button:hover {
+  color: #51a376;
+  background-color: #092938;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  border: 1px solid black;
+  height: 45px;
+  border-radius: 40%;
 }
